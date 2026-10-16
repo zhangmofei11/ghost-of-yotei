@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combat Mastery Guide - Ghost of Yotei</title>
+    <meta name="description" content="Complete Ghost of Yotei combat guide. Combat stance types, sword techniques, perfect parry timing, and ultimate attack combos.">
+    <meta name="keywords" content="Ghost of Yotei combat guide, sword techniques, perfect parry, combat stance, ultimate attacks">
+    <link rel="canonical" href="https://ghost-of-yotei.wiki/combat-mastery.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        ghost: { 400: '#A855F7', 500: '#9333EA', 600: '#7C3AED' }
+                    },
+                    fontFamily: { 'title': ['Cinzel', 'serif'], 'sans': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-44DCETGMBM"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-44DCETGMBM');
+    </script>
+    <style>
+        body { background: linear-gradient(180deg, #0a0a0f 0%, #1a1a2e 100%); font-family: 'Inter', sans-serif; }
+        .card-ghost { background: linear-gradient(135deg, rgba(168,85,247,0.15) 0%, rgba(26,26,46,0.95) 100%); border: 1px solid rgba(168,85,247,0.3); }
+        .card-ghost:hover { border-color: rgba(168,85,247,0.6); transform: translateY(-2px); }
+    </style>
+</head>
+<body class="text-gray-300 antialiased">
+    <header class="bg-slate-950/95 border-b border-ghost-500/30 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-ghost-500 to-purple-900 flex items-center justify-center">
+                        <span class="text-xl">👻</span>
+                    </div>
+                    <div>
+                        <span class="font-title text-xl text-ghost-400">GHOST OF YOTEI</span>
+                        <span class="block text-xs text-gray-500 tracking-widest">STEALTH GUIDE</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-2 text-sm">
+                    <a href="/" class="px-3 py-2 text-gray-400 hover:text-ghost-400 rounded transition-all">Home</a>
+                    <a href="combat-mastery.html" class="px-3 py-2 text-ghost-400 bg-ghost-500/10 rounded border border-ghost-500/30">Combat</a>
+                    <a href="weapons.html" class="px-3 py-2 text-gray-400 hover:text-ghost-400 rounded transition-all">Weapons</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <section class="text-center mb-12">
+            <h1 class="font-title text-4xl md:text-5xl text-ghost-400 mb-4">COMBAT MASTERY</h1>
+            <p class="text-gray-400 max-w-2xl mx-auto">Master the blade in direct combat</p>
+        </section>
+
+        <div class="h-0.5 bg-gradient-to-r from-transparent via-ghost-500 to-transparent mb-12"></div>
+
+        <!-- Combat Stances -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-red-400 mb-6">⚔️ COMBAT STANCES</h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="card-ghost rounded-xl p-5 text-center">
+                    <span class="text-4xl">🗡️</span>
+                    <h3 class="font-bold text-white mt-2">Stone Stance</h3>
+                    <p class="text-gray-400 text-sm mt-2">Defensive, counter attacks</p>
+                    <ul class="text-gray-500 text-xs mt-2 space-y-1">
+                        <li>• Strong against rushes</li>
+                        <li>• Perfect parry window</li>
+                        <li>• Counter damage bonus</li>
+                    </ul>
+                </div>
+                <div class="card-ghost rounded-xl p-5 text-center">
+                    <span class="text-4xl">🌊</span>
+                    <h3 class="font-bold text-white mt-2">Flowing Stance</h3>
+                    <p class="text-gray-400 text-sm mt-2">Balanced, multi-target</p>
+                    <ul class="text-gray-500 text-xs mt-2 space-y-1">
+                        <li>• Wide sweeping attacks</li>
+                        <li>• Good vs groups</li>
+                        <li>• Medium parry window</li>
+                    </ul>
+                </div>
+                <div class="card-ghost rounded-xl p-5 text-center">
+                    <span class="text-4xl">🔥</span>
+                    <h3 class="font-bold text-white mt-2">Moon Stance</h3>
+                    <p class="text-gray-400 text-sm mt-2">Aggressive, high damage</p>
+                    <ul class="text-gray-500 text-xs mt-2 space-y-1">
+                        <li>• Fast attack chain</li>
+                        <li>• High risk/reward</li>
+                        <li>• Narrow parry window</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sword Techniques -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-ghost-400 mb-6">🗡️ SWORD TECHNIQUES</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-ghost rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Light Attack Chain</h3>
+                    <p class="text-gray-400 text-sm mb-2">Square → Square → Square</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Fast 3-hit combo</li>
+                        <li>• Low damage per hit</li>
+                        <li>• Good for building resolve</li>
+                    </ul>
+                </div>
+                <div class="card-ghost rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Heavy Attack</h3>
+                    <p class="text-gray-400 text-sm mb-2">Triangle (Hold for charged)</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• High damage output</li>
+                        <li>• Stuns enemies</li>
+                        <li>• Breaks guards</li>
+                    </ul>
+                </div>
+                <div class="card-ghost rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Perfect Parry</h3>
+                    <p class="text-gray-400 text-sm mb-2">Block just before hit lands</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• 2x counter damage</li>
+                        <li>• Stuns attacker</li>
+                        <li>• Builds ultimate gauge</li>
+                    </ul>
+                </div>
+                <div class="card-ghost rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-3">Resolve Attack</h3>
+                    <p class="text-gray-400 text-sm mb-2">L1+Triangle when resolve full</p>
+                    <ul class="text-gray-500 text-xs space-y-1">
+                        <li>• Massive damage</li>
+                        <li>• Ignores defense</li>
+                        <li>• One-shots most enemies</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ultimate Attacks -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-yellow-400 mb-6">⚡ ULTIMATE ATTACKS</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-ghost rounded-xl p-5">
+                    <div class="flex items-start gap-3">
+                        <span class="text-3xl">💥</span>
+                        <div>
+                            <h3 class="font-bold text-white">Ghost Strike</h3>
+                            <p class="text-gray-400 text-sm">Dash through enemies, dealing damage</p>
+                            <p class="text-ghost-400 text-xs mt-2">Costs 1 resolve bar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-ghost rounded-xl p-5">
+                    <div class="flex items-start gap-3">
+                        <span class="text-3xl">🌸</span>
+                        <div>
+                            <h3 class="font-bold text-white">Dance of the Fallen</h3>
+                            <p class="text-gray-400 text-sm">Ultimate technique, multiple slashes</p>
+                            <p class="text-ghost-400 text-xs mt-2">Costs 2 resolve bars</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Combat Tips -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-green-400 mb-6">💡 COMBAT TIPS</h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="card-ghost rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Enemy Reading</h3>
+                    <p class="text-gray-400 text-sm">Watch enemy stance. Red glow means attack incoming.</p>
+                </div>
+                <div class="card-ghost rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Stance Switching</h3>
+                    <p class="text-gray-400 text-sm">Change stances based on enemy type. Stone vs bosses, Moon vs weak.</p>
+                </div>
+                <div class="card-ghost rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Environment</h3>
+                    <p class="text-gray-400 text-sm">Use ledges for aerial attacks. Push enemies off cliffs.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Boss Combat -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-red-400 mb-6">👹 BOSS COMBAT</h2>
+            <div class="card-ghost rounded-xl p-6">
+                <div class="grid md:grid-cols-2 gap-6 text-sm">
+                    <div>
+                        <h3 class="font-bold text-white mb-3">Phase 1: Learn Patterns</h3>
+                        <ul class="text-gray-400 space-y-1">
+                            <li>• Observe attack sequences</li>
+                            <li>• Find safe windows</li>
+                            <li>• Don't rush damage</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="font-bold text-white mb-3">Phase 2: Execute</h3>
+                        <ul class="text-gray-400 space-y-1">
+                            <li>• Chain safe attacks</li>
+                            <li>• Perfect parry boss moves</li>
+                            <li>• Build resolve for ultimate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-ghost-500/10 py-8 mt-8">
+        <div class="max-w-6xl mx-auto px-6 text-center text-gray-500 text-sm">
+            <p>&copy; 2026 Ghost of Yotei Guide. Game not affiliated with Sony.</p>
+        </div>
+    </footer>
+</body>
+</html>
