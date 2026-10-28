@@ -36,4 +36,22 @@
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+    <url>
+        <loc>https://ghost-of-yotei.wiki/combat-mastery.html</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://ghost-of-yotei.wiki/stealth-guide.html</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://ghost-of-yotei.wiki/trophy-guide.html</loc>
+        <lastmod>2026-09-30</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
 </urlset>
